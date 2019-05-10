@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+#logo{
+	width: 29.6%;
+	height: 100px;
+	background-color: green;
+	border: 1px solid white;
+	float: left;
+}
+#logo img{
+	float: left;
+	width: 40%;
+}
+#logo p{
+	float: left;
+	font-size: 30px;
+	color: white;
+}
+#banner{
+	width: 70%;
+	height: 100px;
+	background-color: green;
+	border: 1px solid white;
+	float: left;
+}
+#menu{
+	width: 100%;
+	height: 30px;
+	background-color: green;
+	border: 1px solid white;
+	float: left;
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	float: left;
+	width: 19.9%;
+	border-right: 1px solid white; 
+	height: 30px;
+	text-align:center;
+	line-height: 30px;
+
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+}
+ul ul {
+	display: none;
+	position: absolute;
+}
+ul ul li{
+	float: none;
+	background-color: green;
+	width: 217px;
+	border: 1px solid white; 
+}
+ul li:hover{
+	background: #D8F781;
+	transition : 1s ease-in-out;
+}
+ul li:hover >ul{
+	display: block;
+
+
+}
+#menu >ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#slider{
+	width: 100%;
+	height: 400px;
+}
+#imgslider{
+	float: left;
+	width: 75%;
+	height: 265px;
+}
+#imgslider img{
+	width: 100%;
+	height: 100%;
+}
+#login{
+	width: 25%;
+	height: 265px;
+	float: left;
+	background-color: green;
+}
+form{
+	margin: 2px;
+	border: 1px solid white;
+}
+h4{
+	color: white;
+	text-align: center;
+}
+#user p, #pass p, #lost{ 
+	color: white;
+	font-size: 18px;
+	margin-top: 10px;
+}
+#user, #pass, #lost, #sm, #join{
+	margin-left: 17px;
+}
+#sm{
+	margin-top: 10px;
+	text-align: center;
+}
+#sm input{
+	width: 150px;
+	height: 30px;
+	color: green;
+	background-color: white;
+	font-weight: bold;
+
+}
+#user input, #pass input{
+	height: 30px;
+	width: 90%;
+}
+#lost a{
+	color: white;
+	text-decoration: none;
+}
+#join a{
+	color: yellow;
+	text-decoration: none;
+	font-size: 18px;
+}
+#join a:hover, #lost a:hover{
+	text-decoration: underline;
+}
+
+h4{
+	font-size: 24px;
+}
+#main1{
+	height: 280px;
+	width: 100%;
+	display: block;
+
+}
+#main2{
+	height: 300px;
+	width: 100%;
+	display: block;
+}
+.item{
+	float: left;
+	width: 24.6%;	
+	background-color: green;
+	border: 2px solid white;
+	display: block;
+
+}
+.item img{
+	width: 90%;
+	height: 180px;
+	margin-left:  12px;
+	margin-right:   12px;
+	margin-top:  12px;
+}
+.tittle{ 
+	float: left;
+	width: 100%;
+}
+footer{
+	float: left;
+	width: 100%;
+}
+#contact{
+	width: 30%;
+	height: 200px;
+	background-color: green;
+	
+	float: left;
+	padding-left: 6px;
+	color: white; 
+	padding-top: 5px;
+}
+#care{
+	width: 29.4%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	color: white;
+	padding-top: 5px;
+}
+#connect{
+	width: 40%;
+	height: 200px;
+	background-color: green;
+	float: left;
+	color: white;
+	padding-top: 5px;
+}
+.time p img{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin: 0;
+}
+.time p{
+	height: 15px;
+	float: left;
+	color: white;
+	margin-left: 20px; 
+}
+.calendar p img{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin: 0;
+}
+.calendar p{
+	height: 15px;
+	float: left;
+	color: white;
+	margin-left: 55px;
+}
+.text{
+	margin-left:  10px;
+	margin-right:   10px;
+}
+.tieude{
+	text-align: center;
+	color: white;
+	width: 100%;
+	float: left;
+}
+.price{
+	float: left;
+	color: white;
+	margin-top: 10px; 
+}
+.price p{
+	font-size:  20px;
+	margin-left:  10px;
+}
+.Detail{
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+.tittle h3{
+	width: 50%;
+	float: left;
+}
+.tittle p{
+	float: right;
+}
+#care ul li{
+	float: none;
+	width: 100%;
+	text-align: inherit;
+}
+#care ul li:hover{
+	text-decoration: underline;
+	background-color: green;
+}
+#connect img{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right:  10px;
+	margin-top: 5px;
+}
+@media screen and (max-width: 1024px) {
+	#banner{
+		width: 69.8%;
+	}
+	#logo img{
+		width: 30%;
+	}
+	#logo p{
+		font-size: 25px;
+	}
+	#menu ul li{
+		width: 19.85%;
+	}
+	.item{
+		width: 24.5%;
+	}
+	.item img{
+		height: 170px;
+	}
+	.time p{
+		margin: 0;
+	}
+	.calendar p{
+		margin-left: 20px;
+	}
+	.Detail{
+		width: 60px;
+	}
+	.price p{
+		font-size: 17px;
+	}
+	#connect{
+		width: 39.5%;
+	}
+	#menu ul ul {
+		display: none;
+		position: absolute;
+	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 160px;
+		border: 1px solid white; 
+	}
+	#menu ul li:hover{
+		background: #D8F781;
+		transition : 1s ease-in-out;
+	}
+	#menu ul li:hover >ul{
+		display: block;
+	}
+	#menu >ul:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+@media screen and (max-width: 768px) {
+	.item{
+		width: 32.5%;
+	}
+	.hide{
+		display: none;
+	}
+	#logo p{
+		font-size: 20px;
+	}
+	#banner{
+		width: 69.7%;
+	}
+	#menu ul li{
+		width: 19.8%;
+	}
+	#slider img{
+		height: 200px;
+	}
+	#slider{
+		height: 335px;
+	}
+	#menu ul li a{
+		font-size: 13px;
+	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 115px;
+		border: 1px solid white; 
+	}
+	
+}
+@media screen and (max-width: 425px) {
+	.item{
+		width: 48%;
+	}
+	.hide{
+		display: block;
+	}
+	#logo p{
+		font-size: 15px;
+	}
+	#logo{
+		height: 70px;
+	}
+	#banner{
+		width: 69%;
+		height: 70px;
+	}
+	#menu ul li{
+		width: 19.6%;
+	}
+	#slider img{
+		height: 150px;
+	}
+	#slider{
+		height: 255px;
+	}
+	#menu ul li a{
+		font-size: 7px;
+	}
+	#connect{
+		display: none;
+	}
+	#care{
+		width: 49%;
+	}
+	#contact{
+		width: 49%
+	}
+	#care a{
+		font-size: 12px;
+	}
+	#contact p{
+		font-size: 12px;
+	}
+	h3{
+		font-size: 12px;
+	}
+	.tittle p{
+		font-size: 12px;
+	}
+	.time p{
+		font-size: 10px;
+	}
+	.calendar p{
+		font-size: 10px;
+	}
+	.price p{
+		font-size: 12px;
+	}
+	.tieude{
+		font-size: 12px;
+	}
+	.Detail{
+		font-size: 12px;
+		width: 50px;
+		margin-right: 10px;
+	}
+	#menu ul ul li{
+		float: none;
+		background-color: green;
+		width: 60px;
+		border: 1px solid white; 
+	}
+}
